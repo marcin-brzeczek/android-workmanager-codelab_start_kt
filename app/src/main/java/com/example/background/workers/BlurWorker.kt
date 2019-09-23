@@ -11,7 +11,6 @@ import androidx.work.Data
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 import com.example.background.KEY_IMAGE_URI
-import com.example.background.R
 import java.lang.IllegalArgumentException
 
 class BlurWorker(appContext: Context, workerParams: WorkerParameters) : Worker(appContext, workerParams) {
